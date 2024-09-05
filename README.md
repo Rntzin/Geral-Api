@@ -1,14 +1,14 @@
-# 🍕 pizza.shop API
+# API
 
-Food delivery app (aka. iFood/Uber Eats) back-end built with TypeScript, Drizzle a ElysiaJS.
+Back-end de aplicativo de entrega de comida (também conhecido como Ifood, QueroDelivery) desenvolvido com TypeScript, Drizzle e ElysiaJS.
 
-> 🔥 This project aims to keep runtime agnostic, this means it should work on Bun, Node, Cloudflare Workers or any Web Standard API compatible runtime.
+> 🔥 Este projeto tem como objetivo manter o tempo de execução independente, o que significa que ele deve funcionar em Bun, Node, Cloudflare Workers ou qualquer tempo de execução compatível com Web Standard API.
 
-## Running
+## Rodando
 
-This project depends on Docker to setup database. With Docker installed, clone the project, install  dependencies, setup Docker containers and run the application.
+Este projeto depende do Docker para configurar o banco de dados. Com o Docker instalado, clone o projeto, instale dependências, configure os contêineres do Docker e execute o aplicativo.
 
-> You must also run migrations to create database tables and run the seed to populate the database with fake data.
+> Você também deve executar migrações para criar tabelas de banco de dados e executar a semente para preencher o banco de dados com dados falsos.
 
 ```sh
 bun i
@@ -18,18 +18,18 @@ bun seed
 bun dev
 ```
 
-## Features
+## Características
 
-> The **summary** of the features are listed below. All the features contains E2E tests.
+> O resumo dos recursos está listado abaixo. Todos os recursos contêm testes E2E.
 
-- it should be able to register a new restaurant
-- it should be able to sign in as a restaurant manager
-- it should be able to register as a new customer
-- it should be able to crete an order to the restaurant
-- it should be able to manage the restaurant menu
-- it should be able to manage the restaurant evaluations
-- it should be able to leave an evaluation
-- it should be able to manage the restaurant orders
-- it should be able to update the restaurant public profile
-- it should be able to open/close the restaurant
-- it should be able to list metrics from the restaurant
+- Registra um novo restaurante
+- É possível fazer login como gerente de restaurante
+- Pode se registrar como um novo cliente
+- Cria um pedido para o restaurante
+- Gerencia o menu do restaurante
+- Gerencia as avaliações dos restaurantes
+- É capaz de deixar uma avaliação
+- Gerencia os pedidos do restaurante
+- Atualiza o perfil público do restaurante
+- É capaz de abrir/fechar o restaurante
+- Lista as métricas do restaurante

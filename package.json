@@ -9,7 +9,6 @@
     "migrate": "bun src/db/migrate.ts",
     "seed": "bun src/db/seed.ts"
   },
-  "author": "Diego Fernandes <diego.schell.f@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@elysiajs/cookie": "^0.7.0",
@@ -24,6 +23,7 @@
     "postgres": "3.4.3",
     "react": "^18.2.0",
     "resend": "^2.0.0",
+    "schema": "^0.2.1",
     "zod": "3.22.4"
   },
   "devDependencies": {
