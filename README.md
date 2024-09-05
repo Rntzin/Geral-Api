@@ -22,14 +22,14 @@ bun dev
 
 > O resumo dos recursos está listado abaixo. Todos os recursos contêm testes E2E.
 
-- Registra um novo restaurante
-- É possível fazer login como gerente de restaurante
-- Pode se registrar como um novo cliente
-- Cria um pedido para o restaurante
-- Gerencia o menu do restaurante
-- Gerencia as avaliações dos restaurantes
-- É capaz de deixar uma avaliação
-- Gerencia os pedidos do restaurante
-- Atualiza o perfil público do restaurante
-- É capaz de abrir/fechar o restaurante
-- Lista as métricas do restaurante
+- Registra um novo restaurante;
+- É possível fazer login como gerente de restaurante;
+- Pode se registrar como um novo cliente;
+- Cria um pedido para o restaurante;
+- Gerencia o menu do restaurante;
+- Gerencia as avaliações dos restaurantes;
+- É capaz de deixar uma avaliação;
+- Gerencia os pedidos do restaurante;
+- Atualiza o perfil público do restaurante;
+- É capaz de abrir/fechar o restaurante;
+- Lista as métricas do restaurante.
